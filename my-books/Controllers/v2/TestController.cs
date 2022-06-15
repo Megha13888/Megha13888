@@ -24,5 +24,11 @@ namespace my_books.Controllers.v2
         {
             return Ok("This is Update Data in v2");
         }
+
+        [HttpGet("getdatadevelopment")]
+        public IActionResult GetDevelopmentAPI()
+        {
+            return Ok("Development API");
+        }
     }
 }
