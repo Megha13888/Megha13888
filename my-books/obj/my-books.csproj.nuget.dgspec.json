@@ -1,23 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Author\\source\\repos\\my-books\\my-books\\my-books.csproj": {}
+    "C:\\Megha Data\\Megha13888\\my-books\\my-books.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Author\\source\\repos\\my-books\\my-books\\my-books.csproj": {
+    "C:\\Megha Data\\Megha13888\\my-books\\my-books.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Author\\source\\repos\\my-books\\my-books\\my-books.csproj",
+        "projectUniqueName": "C:\\Megha Data\\Megha13888\\my-books\\my-books.csproj",
         "projectName": "my-books",
-        "projectPath": "C:\\Users\\Author\\source\\repos\\my-books\\my-books\\my-books.csproj",
-        "packagesPath": "C:\\Users\\Author\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Author\\source\\repos\\my-books\\my-books\\obj\\",
+        "projectPath": "C:\\Megha Data\\Megha13888\\my-books\\my-books.csproj",
+        "packagesPath": "C:\\Users\\Megha\\.nuget\\packages\\",
+        "outputPath": "C:\\Megha Data\\Megha13888\\my-books\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Author\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Megha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -44,6 +47,44 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -67,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
