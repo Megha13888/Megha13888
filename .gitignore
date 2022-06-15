@@ -8,3 +8,4 @@
 *.suo
 /my-books-tests/bin/Debug/netcoreapp3.1
 /my-books-tests/obj
+/my-books/obj/Debug/net5.0/my-books.csproj.AssemblyReference.cache
