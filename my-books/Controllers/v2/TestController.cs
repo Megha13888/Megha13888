@@ -18,5 +18,11 @@ namespace my_books.Controllers.v2
         {
             return Ok("This is TestController V2");
         }
+
+        [HttpGet("getdata")]
+        public IActionResult GetData()
+        {
+            return Ok("This is Update Data in v2");
+        }
     }
 }
