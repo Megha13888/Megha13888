@@ -36,5 +36,12 @@ namespace my_books.Controllers.v2
         {
             return Ok("Development API");
         }
+
+
+        [HttpGet("getTestDatav1")]
+        public IActionResult GetTestDatav1()
+        {
+            return Ok("Development API v1");
+        }
     }
 }
