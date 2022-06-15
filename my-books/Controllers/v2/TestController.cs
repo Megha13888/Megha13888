@@ -34,7 +34,7 @@ namespace my_books.Controllers.v2
         [HttpGet("getTestData")]
         public IActionResult GetTestData()
         {
-            return Ok("Development API");
+            return Ok("Hello World");
         }
     }
 }
